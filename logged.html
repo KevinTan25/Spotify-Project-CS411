@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Events</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-widgth, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/event.css">
+    <script src="spotify.js"></script>
+
+</head>
+
+<body onload="onPageLoad()">
+    <section>
+        <div class="container">
+            <nav>
+                <h1><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" style="color:#1DB954; text-decoration: none"
+                        ;>ReCo</a></h1>
+                <ul>
+                    <li><a href="http://localhost:8080/">Home</a></li>
+                    <li><a href="https://github.com/jwkinney443/CS411">GitHub</a></li>
+                </ul>
+            </nav>
+            <div class="article">
+                <h1>Find Your Next Experience</h1>
+                <a class="btn" id="eventsButton" onclick="buttonFade()" value="Get Events">Find Events</a>
+                <a class="btn" onclick="clearDisplay()" value="Delete Events">Clear Events</a>
+                <div id="eventInfoSection"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="copyright">
+            © 2024 ReCo. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+
+
+
+</html>

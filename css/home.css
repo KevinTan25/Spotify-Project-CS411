@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+
+section{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.60), rgba(59, 116, 77, 0.692)), url("../image/crowd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width:85%;
+    margin:auto;
+}
+nav{
+    height: 80px;
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color:#1DB954;
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding:7px 8px;
+}
+nav ul li a:hover{
+    background-color:#1DB954;
+    transition: 0.5 ease;
+
+}
+.article{
+    width: 50%;
+    margin:auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+
+.article h1{ 
+    font-size: 36px;
+    color:#1DB954;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.article .btn{
+    cursor: pointer;
+    color: #ffffff;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(23, 24, 23);
+    border-radius: 9999px;
+}
+
+.article .btn:hover{
+    background-color: #1DB954;
+    transition: 0.5 ease;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2.5px;
+    color: #fff;
+    text-align: left;
+}
+
+.copyright {
+    padding-left: 20px;
+}
